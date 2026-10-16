@@ -626,17 +626,17 @@ tail -50 sort_photos.log
 **预演（复制模式）：**
 
 ```bash
-./sort_photos.sh -s /home/pptt/Pictures -d /home/pptt/NonWork -m copy --dry-run
+./sort_photos.sh -s /home/yonghuming/Pictures -d /home/yonghuming/NonWork -m copy --dry-run
 ```
 
 **正式运行（硬链接 + 平铺）：**
 
 ```bash
-./sort_photos.sh -s /home/pptt/Pictures -d /home/pptt/NonWork -m hardlink --flat
+./sort_photos.sh -s /home/yonghuming/Pictures -d /home/yonghuming/NonWork -m hardlink --flat
 ```
 
 **使用自定义规则文件：**
 
 ```bash
-./sort_photos.sh -s /home/pptt/Pictures -d /home/pptt/NonWork -m copy -r /home/pptt/rules-trip.json
+./sort_photos.sh -s /home/yonghuming/Pictures -d /home/yonghuming/NonWork -m copy -r /home/yonghuming/rules-trip.json
 ```
